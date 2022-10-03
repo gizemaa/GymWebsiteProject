@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link href="https://fonts.googleapis.com/css2?family=Vast+Shadow&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+
+     
+    <link href="https://fonts.googleapis.com/css2?family=Rokkitt:wght@600&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab+Highlight&display=swap" rel="stylesheet">
+  
+       <style>
+        
+           html{ 
+           }
+        
+        body{
+           background-color: black;
+           }
+        
+      
+           #menudiv{
+               display: block;
+           }
+             
+        #menu-ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: black;
+        }
+        
+        ul li{
+        float: left;
+        padding-left: 100px;}
+        
+        li a{
+         display:block;
+         padding: 12px 14px;
+         color: white;
+         text-decoration: none;
+         font-family: 'Vast Shadow', cursive;}
+        
+        li a:hover{
+        background-color:firebrick;
+           text-decoration: none;
+           color: white;}
+           
+           
+        
+        .aktif {
+    background-color:firebrick;}
+ 
+           .container{
+           width: 100%;
+           padding-left: 0px;
+           padding-right: 0px;}
+           
+           
+           .anaicerik{
+            width: 100%;
+            float: left;
+            margin-top: 0px;
+            padding-top: 0px;}
+            
+           .soldanbasla{
+               display: inline-block;
+               margin: 40px;}
+           
+           .solakaydır{
+               float: left;
+           }
+            
+               
+     @font-face {
+          font-family: 'fontello';
+          src: url('./font/fontello.eot?23430733');
+          src: url('./font/fontello.eot?23430733#iefix') format('embedded-opentype'),
+               url('./font/fontello.woff?23430733') format('woff'),
+               url('./font/fontello.ttf?23430733') format('truetype'),
+               url('./font/fontello.svg?23430733#fontello') format('svg');
+          font-weight: normal;
+          font-style: normal;
+        }
+
+
+        .demo-icon
+        {
+          font-family: "fontello";
+          font-style: normal;
+          font-weight: normal;
+          speak: none;
+
+          display: inline-block;
+          text-decoration: inherit;
+          width: 1em;
+          margin-right: .2em;
+          text-align: center;
+          /* opacity: .8; */
+
+          /* For safety - reset parent styles, that can break glyph codes*/
+          font-variant: normal;
+          text-transform: none;
+
+          /* fix buttons height, for twitter bootstrap */
+          line-height: 1em;
+
+          /* Animation center compensation - margins should be symmetric */
+          /* remove if not needed */
+          margin-left: .2em;
+
+          /* You can be more comfortable with increased icons size */
+          /* font-size: 120%; */
+
+          /* Font smoothing. That was taken from TWBS */
+          -webkit-font-smoothing: antialiased;
+          -moz-osx-font-smoothing: grayscale;
+
+          /* Uncomment for 3D effect */
+          /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+        }           
+                   
+           .icon-instagram{
+               font-size: 50px;
+           }     
+           .icon-twitter{
+               font-size: 50px;
+           }
+           .icon-youtube{
+               font-size: 70px;
+             
+           }
+           .icon-facebook{
+               font-size: 50px;
+           }
+           .iconlink{
+               float: left;
+               display: block;
+               
+               
+           }
+           .iconlink a{
+               color: whitesmoke;
+           }
+            .iconlink a:hover{
+        background-color:transparent;
+           text-decoration: none;
+           color:;
+           }
+           
+           .adres{
+               float: right;
+               width: 450;
+               height: 250px;
+               margin-right: 45px;
+               display: block;
+           }
+           h4{
+               font-family:'Zilla Slab Highlight', cursive;
+
+               color:firebrick;
+               text-align: center;
+               font-size: 30px;
+           }
+           p{
+               color: antiquewhite;
+               font-size: 15px;
+               font-style: oblique;
+           }
+           
+    </style>
+    </head>
+
+
+
+
+<body>
+    <header>
+        <div id="menudiv">
+           
+                <ul id="menu-ul">
+                <li><a class="aktif" href="Anasayfa.html">Anasayfa</a></li>
+                <li><a href="../Hizmetler/hizmetler.html">Hizmetler</a></li>
+                <li><a href="../PersonalTrainer/personaltrainer.html">Personal Trainer</a></li>
+                <li><a href="../Galeri/galeri.html">Galeri</a></li>
+                <li><a href="../Nedenbiz/Neden-biz.html">Neden Biz?</a></li>
+                </ul>
+        </div>
+    </header>
+   
+   
+   <div class="container">
+ <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- gösterge -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- fotograflar -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="1078032.jpg" alt="" style="width:100%; height: 630px">
+      </div>
+
+      <div class="item">
+        <img src="fitness-3.jpg" alt="" style="width:100%; height: 630px">
+      </div>
+    
+      <div class="item">
+        <img src="808c2a76f4b67b77_800.jpg" alt="" style="width:100%; height: 630px">
+      </div>
+    </div>
+
+    <!-- Sag ve sol hareket kontrolleri -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+
+ 
+   
+     <div class="anaicerik"> 
+ 
+<div class="soldanbasla">
+<figure class="">
+<a href="../Hizmetler/hizmetler.html" target="_self" class="vc_single_image-wrapper   vc_box_border_grey rollover" data-large_image_width="360" data-large_image_height="240"><img class="vc_single_image-img " src="crossfitNedir.jpg" width="360" height="240" alt=""></a>
+</figure></div>
+
+   
+
+<div class="soldanbasla">
+<figure class="">
+<a href="pstasar%C4%B1m.png" target="_self" class="vc_single_image-wrapper   vc_box_border_grey rollover" data-large_image_width="360" data-large_image_height="240"><img class="vc_single_image-img " src="nasilbasliyoruz.jpg" width="360" height="240"></a>
+</figure></div>
+    
+    
+    
+    <div class="soldanbasla">
+<figure class="">
+<a href="../Hizmetler/hizmetler.html" target="_self" class="vc_single_image-wrapper   vc_box_border_grey rollover" data-large_image_width="360" data-large_image_height="240"><img class="vc_single_image-img " src="dersler.jpg" width="360" height="240"></a>
+</figure></div> 
+<div style="text-align: center">
+    <img src="pstasar%C4%B1m.png" alt="üyelik" width="100%">
+    
+</div> <hr width="100%" color="white" size="4">
+</div> 
+
+     
+      
+<footer>
+ 
+<div class="iconlink">
+   <h4 style="text-align: start">Kısacası Biz</h4>
+    <p style="text-align: left">CrossFit 34 Türkiye’nin ilk CrossFit salonudur. <br> Alanlarında en iyi eğitmenlerden oluşan kadrosuyla <br> 2011’den hizmet vermektedir. <br>  </p>
+</div>
+ 
+       
+<div class="iconlink">
+        <h4>Sosyal Medya
+         Hesaplarımız</h4>
+    <a href="https://www.youtube.com/"><i class="demo-icon icon-youtube">&#xf315;</i></a> 
+
+       <a href="https://tr-tr.facebook.com/"><i class="demo-icon icon-facebook">&#xe800;</i></a>
+       <a href="https://twitter.com/"><i class="demo-icon icon-twitter">&#xe801;</i></a>
+      <a href="https://www.instagram.com/"><i class="demo-icon icon-instagram">&#xf16d;</i></a>
+      
+
+</div>
+
+     <div class="adres">
+      <h4>Adres</h4>
+     <p style="text-align: center">1234 Streetname</p>
+    <p style="text-align: center">City AA, 99999</p>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3011.5232633261076!2d28.79534291491381!3d40.99191892838107!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14caa396db59606d%3A0x6594147beb14e9b4!2zxLBzdGFuYnVsIEF5ZMSxbiDDnG5pdmVyc2l0ZXNp!5e0!3m2!1str!2str!4v1589511404414!5m2!1str!2str" width="300" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    
+</div> 
+<div class="adres">
+    <h4>İletişim</h4>
+    <p>Email:Support@crossfitakademi</p>
+    <p>Telefon: +90 0533 000 00 00</p>
+    <p>Fax: +90 0000 0000 000</p>
+</div>
+
+
+</footer>
+
+
+
+
+        
+    
+    
+    
+    
+</body>
+</html>
